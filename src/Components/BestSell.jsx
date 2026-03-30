@@ -4,7 +4,7 @@ import HeaderSec from './HeaderSec'
 import Button from './Button'
 import BestCart from './BestCart'
 import Jacket from '../assets/Jacket.png'
-import Bag from '../assets/Bag.png'
+import Bag from '../assets/bag.png'
 import CPU from '../assets/CPU.png'
 import BookSelf from '../assets/BookSelf.png'
 
