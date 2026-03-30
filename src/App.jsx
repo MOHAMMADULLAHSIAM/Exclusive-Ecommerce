@@ -4,7 +4,7 @@ import './App.css'
 import MainLayout from "./MainLayout";
 import Home from "./Pages/Home";
 import About from './Pages/About'
-import Contact from "./Pages/contact";
+
 import SignUp from "./Pages/SignUp";
 import Shop from "./Pages/Shop";
 import ProductDetails from "./Pages/ProductDetails";
@@ -15,6 +15,8 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { products } from "./Slices/Slice";
 import SignIN from "./Pages/SignIn";
+import Contact  from "./Pages/Contact";
+
 
 
 
@@ -26,8 +28,10 @@ const router = createBrowserRouter([
     children: [
       { index: true, Component: Home },
       { path: "about", Component: About },
-      { path: "contact", Component: Contact },
+      // { path: "contact", Component: Contact },
+
       { path: "signUp", Component: SignUp },
+      { path: "contact", Component: Contact },
       { path: "signIN", Component: SignIN },
       { path: "Shop", Component: Shop },
       { path: "ProductDetails/:id", Component: ProductDetails },
