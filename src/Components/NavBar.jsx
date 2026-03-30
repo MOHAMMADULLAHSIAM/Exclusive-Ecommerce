@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container'
-import logo from '../assets/logo.png'
+import logo from '../assets/Logo.png'
 import List from './List'
 import ListItem from './ListItem'
 import { CiSearch } from "react-icons/ci";
