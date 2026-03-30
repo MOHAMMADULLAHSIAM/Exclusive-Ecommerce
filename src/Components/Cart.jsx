@@ -75,7 +75,7 @@ const Cart = ({ img, title, price, dltprice, rating, percentage, id, productdeta
             <FiEye className='md:text-[16px] text-sm -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute' />
           </div>
         </div>
-        <div className='bg-black text-center text-white font-medium absolute left-0 -bottom-10 w-full  group-hover:bottom-0  rounded-b-sm md:py-2 py-0.5 text-sm md:text-[16px]  ease-linear duration-200 cursor-pointer select-none' onClick={handleCart}>
+        <div className='bg-black text-center text-white font-medium absolute left-0 bottom-0 lg:-bottom-10 w-full  lg:group-hover:bottom-0  rounded-b-sm md:py-2 py-0.5 text-sm md:text-[16px]  ease-linear duration-200 cursor-pointer select-none' onClick={handleCart}>
           <p>Add To Cart </p>
         </div>
       </div>
