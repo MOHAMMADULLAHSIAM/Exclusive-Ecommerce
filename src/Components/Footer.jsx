@@ -3,7 +3,7 @@ import Container from './Container'
 import FooterLogo from '../assets/FooterLogo.png'
 import { TbSend2 } from "react-icons/tb";
 import { NavLink } from 'react-router';
-import QR from '../assets/QRCode.png'
+import QR from '../assets/QrCode.png'
 import GooglePlay from '../assets/GooglePlay.png'
 import downloadappstore from '../assets/download-appstore.png'
 import { FaFacebookF } from "react-icons/fa";
