@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import List from '../Components/List'
 import { NavLink } from 'react-router'
 import Section from '../Components/Section'
-import axios from 'axios'
+// import axios from 'axios'
 import Pagination from '../Components/Pagination'
 import Skeleton from '../Components/Skeleton'
 import BreadCrumbs from '../Components/BreadCrumbs'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { filterCategory, products } from '../Slices/Slice'
 
 const Shop = () => {

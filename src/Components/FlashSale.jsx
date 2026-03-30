@@ -3,10 +3,10 @@ import Section from './Section'
 import HeaderSec from './HeaderSec'
 import CountDown from './CountDown'
 import Cart from './Cart'
-import jostick from '../assets/jostick.png'
-import keyboard from '../assets/keyboard.png'
-import TV from '../assets/TV.png'
-import chair from '../assets/chair.png'
+// import jostick from '../assets/jostick.png'
+// import keyboard from '../assets/keyboard.png'
+// import TV from '../assets/TV.png'
+// import chair from '../assets/chair.png'
 import Slider from "react-slick";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";

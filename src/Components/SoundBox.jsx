@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Section from './Section'
-import JBL from '../assets/JBL.png'
+// import JBL from '../assets/JBL.png'
 import { NavLink } from 'react-router'
 import { countDownDateAndTime } from 'countdown-date-time'; 
 

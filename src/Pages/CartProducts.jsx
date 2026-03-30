@@ -1,8 +1,6 @@
 import React from 'react'
 import Section from '../Components/Section'
 import CartDetails from '../Components/CartDetails'
-import TV from '../assets/TV.png'
-import JOSTICK from '../assets/JOSTICK.png'
 import BreadCrumbs from '../Components/BreadCrumbs'
 import { NavLink } from 'react-router'
 import Button from '../Components/Button'
