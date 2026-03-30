@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 776px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1170px;
+}
+
+.slick-dots {
+    bottom: 35px !important;
+
+    
+}
+@media(max-width:992px){
+    .slick-dots{bottom: 9px !important;}
+}
+
+.slick-dots .slick-active div {
+    width: 14px;
+    height: 14px;
+    background-color: #e42b2b;
+    border: 2px solid white ;
+    border-radius: 50%;
+}
+@media(max-width:992px){
+    .slick-dots .slick-active div {
+    width: 10px;
+    height: 10px;
+    border: 1px solid white ;
+    
+}
+}
+
+
+
+.animation-pulse{
+    box-shadow: 0 0 0 18px #c2c0c2;
+    animation: move infinite 1.5s;
+}
+
+
+@keyframes move {
+    0%{
+          box-shadow: 0 0 0  #c2c0c2;
+    }
+    60%{
+          box-shadow: 0 0 0 22px #c2c0c29c;
+    }
+    100%{
+          box-shadow: 0 0 0 22px #c2c0c22d;
+    }
+}
+
