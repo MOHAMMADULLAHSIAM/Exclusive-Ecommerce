@@ -5,8 +5,7 @@ import { NavLink } from 'react-router'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BannerImg from '../assets/raisha.jpg'
-import BannerImg2 from '../assets/raisha2.jpg'
+import BannerImg from '../assets/BannerImg.jpg'
 import Slider from "react-slick";
 import Flex from './Flex';
 import { BiSolidCategory } from "react-icons/bi";
@@ -114,13 +113,13 @@ const Banner = () => {
           <img src={BannerImg} alt="img" />
         </div>
         <div>
-          <img src={BannerImg2} alt="img" />
+          <img src={BannerImg} alt="img" />
         </div>
         <div>
           <img src={BannerImg} alt="img" />
         </div>
         <div>
-          <img src={BannerImg2} alt="img" />
+          <img src={BannerImg} alt="img" />
         </div>
         <div>
           <img src={BannerImg} alt="img" />
