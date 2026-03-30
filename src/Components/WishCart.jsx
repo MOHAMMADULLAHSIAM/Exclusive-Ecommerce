@@ -36,7 +36,7 @@ const WishCart = ({ img, title, price, dltprice, percentage, id, }) => {
   return (
     <div className='group'>
       <div className='bg-[#F5F5F5] md:w-[270px] md:h-[250px] md:p-[49px] w-40 h-32 p-8 rounded-sm relative overflow-hidden'>
-        <img src={img} alt="" className='cursor-pointer ' onClick={handleDetails} />
+        <img src={img} alt="img" className='cursor-pointer ' onClick={handleDetails} />
         <div className='py-1 md:px-3 px-1.5 bg-[#DB4444] rounded-sm absolute top-3 left-3 text-[#FAFAFA] text-xs '>
           <p>-{percentage}%</p>
         </div>

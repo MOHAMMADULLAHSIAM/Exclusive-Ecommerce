@@ -21,7 +21,7 @@ const Footer = () => {
             <div className='flex text-white py-20 justify-between flex-wrap gap-y-20'>
              <div className=' '>
                 <div>
-                    <img src={FooterLogo} alt="" />
+                    <img src={FooterLogo} alt="img" />
                 </div>
                 <h4 className='my-6 font-medium text-xl'>Subscribe</h4>
                 <p>Get 10% off your first order</p>
@@ -65,11 +65,11 @@ const Footer = () => {
                 <p className='text-xs text-[#fafafa]'>Save $3 with App New User Only</p>
                 <div className='flex items-center gap-x-2'>
                     <div >
-                        <img src={QR} alt="" />
+                        <img src={QR} alt="img" />
                     </div>
                     <div className='flex flex-col items-center mt-2'>
-                        <div><NavLink to=''><img src={GooglePlay} alt="" /></NavLink></div>
-                        <div><NavLink to=''><img src={downloadappstore} alt="" /></NavLink> </div>
+                        <div><NavLink to=''><img src={GooglePlay} alt="img" /></NavLink></div>
+                        <div><NavLink to=''><img src={downloadappstore} alt="img" /></NavLink> </div>
                     </div>
                 </div>
                 <ul className='text-white flex text-2xl items-center gap-x-6 mt-6 '>

@@ -110,19 +110,19 @@ const Banner = () => {
             <div className='lg:w-[75%]  w-full mt-10'>
                 <Slider  {...settings}>
         <div>
-          <img src={BannerImg} alt="" />
+          <img src={BannerImg} alt="img" />
         </div>
         <div>
-          <img src={BannerImg} alt="" />
+          <img src={BannerImg} alt="img" />
         </div>
         <div>
-          <img src={BannerImg} alt="" />
+          <img src={BannerImg} alt="img" />
         </div>
         <div>
-          <img src={BannerImg} alt="" />
+          <img src={BannerImg} alt="img" />
         </div>
         <div>
-          <img src={BannerImg} alt="" />
+          <img src={BannerImg} alt="img" />
         </div>
         
       </Slider>

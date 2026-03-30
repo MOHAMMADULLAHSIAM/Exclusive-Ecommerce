@@ -9,7 +9,7 @@ const ExploreCart = ({img, title, price, dltprice, rating,percentage}) => {
   return (
     <div className='group'>
       <div className='bg-[#F5F5F5] md:w-[270px] md:h-[250px] md:p-[49px] w-40 h-32 p-8 rounded-sm relative overflow-hidden'>
-        <img src={img} alt="" />
+        <img src={img} alt="img" />
             <div className=' flex absolute right-3 flex-col gap-2 top-3'>
                 <div className='md:w-[34px] w-7 md:h-[34px] h-7 bg-white rounded-full relative'>
                 <FaRegHeart className='md:text-[16px] text-sm -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute' />

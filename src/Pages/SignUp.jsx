@@ -94,7 +94,7 @@ const SignUp = () => {
     <div>
       <div className='flex items-center gap-32 mt-15'>
         <div>
-          <img src={singUpimg} alt="" />
+          <img src={singUpimg} alt="img" />
         </div>
         <div className='w-[371px]'>
           <h2 className='text-4xl font-medium'>Create an account</h2>

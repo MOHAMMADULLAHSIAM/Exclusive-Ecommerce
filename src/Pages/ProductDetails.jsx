@@ -92,29 +92,29 @@ const ProductDetails = () => {
         <div className='lg:flex lg:items-center lg:gap-7.5 lg:flex-row flex flex-col-reverse items-start gap-y-4'>
           <div className='flex items-center lg:flex-col lg:gap-y-4 gap-x-2 '>
             {/* <div className='w-42.5   bg-[#F5F5F5] py-3 px-6 rounded-sm h-34.5'>
-            <img src={img1} alt="" className='' />
+            <img src={img1} alt="img" className='' />
           </div>
           <div className='w-42.5   bg-[#F5F5F5] py-3 px-6 rounded-sm h-34.5'>
-            <img src={img2} alt="" className='' />
+            <img src={img2} alt="img" className='' />
           </div>
           <div className='w-42.5   bg-[#F5F5F5] py-3 px-6 rounded-sm h-34.5'>
-            <img src={img3} alt="" className='' />
+            <img src={img3} alt="img" className='' />
           </div>
           <div className='w-42.5   bg-[#F5F5F5] py-3 px-6 rounded-sm h-34.5'>
-            <img src={img4} alt="" className='' />
+            <img src={img4} alt="img" className='' />
           </div> */}
             {
               productsImg.map((img, idx) => {
                 return (
                   <div className='lg:w-42.5 w-30   bg-[#F5F5F5] py-3 px-6 rounded-sm lg:h-34.5' key={idx}>
-                    <img src={img} alt="" className='' />
+                    <img src={img} alt="img" className='' />
                   </div>
                 )
               })
             }
           </div>
           <div className='lg:w-125 lg:h-150 w-85 h-95   bg-[#F5F5F5] py-3 px-6 rounded-sm relative'>
-            <img src={allProducts.thumbnail} alt="" className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
+            <img src={allProducts.thumbnail} alt="img" className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2' />
           </div>
         </div>
         <div>

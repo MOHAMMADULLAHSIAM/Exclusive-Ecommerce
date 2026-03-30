@@ -29,21 +29,21 @@ const Arrivla = () => {
 
             <div className='flex items-center lg:justify-between lg:flex-row flex-col gap-y-8 mt-15'>
                 <div className='relative group'>
-                    <img src={PlayStation} alt="" className='lg:h-auto h-100' />
+                    <img src={PlayStation} alt="img" className='lg:h-auto h-100' />
                     <NewArrivalHead title='PlayStation 5' topics='Black and White version of the PS5 coming out on sale.' className='w-[242px] my-4' />
                 </div>
                 <div className='flex flex-col  gap-y-8 '>
                     <div className='relative group'>
-                        <img src={WomensCollection} alt="" />
+                        <img src={WomensCollection} alt="img" />
                         <NewArrivalHead title='Women’s Collections' topics='Featured woman collections that give you another vibe.' className='w-[230px] my-4' />
                     </div>
                     <div className='flex items-center lg:justify-between gap-x-5 lg:gap-x-0 '>
                         <div className='relative group'>
-                            <img src={Speakers} alt="" />
+                            <img src={Speakers} alt="img" />
                             <NewArrivalHead title='Speakers' topics='Amazon wireless speakers' className='lg:my-2 my-1' />
                         </div>
                         <div className='relative group'>
-                            <img src={Perfume} alt="" />
+                            <img src={Perfume} alt="img" />
                             <NewArrivalHead title='Perfume ' topics='GUCCI INTENSE OUD EDP' className='lg:my-2 my-1' />
                         </div>
                     </div>

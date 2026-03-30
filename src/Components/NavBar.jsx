@@ -81,7 +81,7 @@ const NavBar = () => {
         <Flex className=" justify-between lg:pt-[47px] lg:pb-[23px] py-4 relative">
           <div >
             <NavLink to='/'>
-              <img src={logo} className='lg:w-auto lg:h-auto w-[97px] h-[18px] select-none' alt="" />
+              <img src={logo} className='lg:w-auto lg:h-auto w-[97px] h-[18px] select-none' alt="img" />
             </NavLink>
           </div>
           <div className={`${!show ? "block " : "hidden "}  lg:flex lg:items-center lg:gap-[148px] bg-black text-white lg:bg-transparent lg:text-black lg:static absolute top-[58px] left-0 w-full lg:w-auto rounded-b-lg z-10`}>
@@ -115,7 +115,7 @@ const NavBar = () => {
                       setSerch("")
                       setFilterSerch([])
                     }} className="flex items-center  gap-2 px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                      <img src={item.thumbnail} alt="" className='lg:w-13 w-7' />
+                      <img src={item.thumbnail} alt="img" className='lg:w-13 w-7' />
                       <p className='text-sm lg:text-[16px]'>{item.title}</p>
                     </div>
                   )
